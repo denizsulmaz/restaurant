@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.ana{
+    height: 100vh;
+    background-image: url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0;
+    left: 0%;
+    margin: 0;
+    padding: 0;
+}
+.ana h2{
+    margin-left: 5%;
+    color: whitesmoke;
+    padding-top: 7%;
+    line-height: 300%;
+    font-size: 32px;
+    width: 40%;
+    padding-left: 1%;
+    text-shadow: 0 0 5px black;
+    box-shadow: -5px 4px 4px rgba(0, 0, 0, 0.39);
+}
+.logo{
+    z-index: 99;
+    position: fixed;
+    font-size: 2em;
+    top: 27px;
+    font-weight: 600;
+    margin-left: 5%;
+}
+.nav{
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(148, 148, 148, 0.774);
+}
+.nav .navbir{
+   margin-top: 50%;
+    text-align: center;
+    align-items: center;
+}
+.nav .navbir li{
+    
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    line-height: 300%;
+}
+.nav .navbir li a{
+    text-shadow: 0 0 2px rgb(89, 65, 225);
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(240, 238, 255);
+}
+.nav .navbir li a:hover{
+    text-shadow: 1px 1px 1px rgb(89, 65, 225);
+    color: white;
+    font-size: 27px;
+}
+.nav .social{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+     text-align: center;
+     align-items: center;
+ }
+ .nav .social li{
+     cursor: pointer;
+    padding-right: 15px;
+    list-style: none;
+    font-size: 25px;
+ }
+ .sos{
+     display: flex;
+     justify-content: center;
+ }
+ .ana h1{
+     color: white;
+     display: flex;
+     justify-content: center;
+     padding-top: 3%;
+     font-size: 38px;
+     font-weight: 600;
+     text-shadow: 0 0 4px black;
+     letter-spacing: 2px;
+ }
+ .second{
+     height: 100vh;
+     background-color: #543A32;
+ }
+ .oat{
+     position: absolute;
+     width: 28%;
+     left: 5%;
+     margin-top: 6%;
+ }
+.second h1{
+    font-size: 35px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.second h2{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.second p{
+    width: 35%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 39.5%;
+    font-size: 25px;
+}
+/* ------- */
+.third{
+    height: 100vh;
+    background-color:#754863;
+}
+.sweet{
+    position: absolute;
+    width: 28%;
+    left: 5%;
+    margin-top: 6%;
+}
+.third h1{
+   font-size: 35px;
+   padding-top: 5%;
+   display: flex;
+   justify-content: center;
+   letter-spacing: 3px;
+}
+.third h2{
+    text-transform: capitalize;
+   padding-top: 5%;
+   display: flex;
+   padding-left: 39.5%;
+}
+.third p{
+   width: 35%;
+   padding-top: 1%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 39.5%;
+   font-size: 25px;
+}
+/* ------- */
+.fourth{
+    height: 110vh;
+    background-color:#D2A77C;
+}
+.cof{
+    position: absolute;
+    width: 28%;
+    left: 5%;
+    margin-top: 6%;
+}
+.fourth h1{
+   font-size: 35px;
+   padding-top: 5%;
+   display: flex;
+   justify-content: center;
+   letter-spacing: 3px;
+}
+.fourth h2{
+    text-transform: capitalize;
+   padding-top: 5%;
+   display: flex;
+   padding-left: 39.5%;
+}
+.fourth p{
+   width: 35%;
+   padding-top: 1%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 39.5%;
+   font-size: 25px;
+}
+.copyr{
+    display: flex;
+    justify-content: center;
+    width: 2.5%;
+    color: rgba(255, 255, 255, 0.87);
+    float: right;
+    margin-right: 50%;
+    margin-top: 21%;
+}
